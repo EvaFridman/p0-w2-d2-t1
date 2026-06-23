@@ -3,7 +3,7 @@
 /* release 1 */
 /* main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 } */
 
@@ -14,9 +14,17 @@
     gap: 20px;
 } */
 
-main {
+/* release 3 */
+/* main {
     display: grid;
     grid-template-columns: 700px 1fr 1fr;
+    gap: 20px;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 20px;
 }
 
