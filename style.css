@@ -1,8 +1,15 @@
 * {box-sizing: border-box; }
 
-main {
+/* release 1 */
+/* main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 20px;
 }
 
